@@ -7,14 +7,26 @@ imported the tutorials from tensorflow.org
 https://github.com/tensorflow/models
   Projects/tensortutorials/models/tutorials/
 
-Want to test out this new model for image recognition!
+Tested out this new model for image recognition!
 Described here: https://www.tensorflow.org/tutorials/image_recognition
+it works.
 
+Now we need to see what happend to our Cifar10 Model. Its currently training...
+{ SUPER USEFUL INFO FOR OUR SERVER: http://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session }
+The training is under: tmux list-sessions
+named: cifar10training
+You'll need to login to the ssh like normal then use the tmux command to see how our model is doing...or it is done. If it worked, then we can go to the next step of creating our model for form-and-file--->
 
+Next step:
+https://www.tensorflow.org/tutorials/image_retraining
+create this directory for our inception model Projects/form-and-file/models/inception/
+create this directory for our image database Projects/form-and-file/imgs/
+create this directory for our image processing scripts Projects/form-and-file/generate/
+...and any other directories you need...
 
 TASK LIST:
 DONE: Confirm the Cifar10 Model worked
-Go about modifying a model (not yet chosen) for the form and file sorter
+Go about modifying the inception model's last layer for the form and file sorter
   Projects/form-and-file/
   
   
